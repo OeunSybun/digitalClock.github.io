@@ -1,0 +1,72 @@
+body{
+  background-color:black;
+}
+.container{
+  margin-top:5%;
+  text-align:center;
+}
+.alarm{
+  background-color:#225466;
+  color: #17D4FE;
+  width:600px;
+  height:100px;
+  background-color:#225466;
+  font-family: 'Orbitron', sans-serif;
+  transition: ease-out 0.3s;
+  font-size:3rem;
+  margin-top:10px;
+  border:3px solid #17D4FE;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.alarm:hover{
+  background-color:#17D4FE;
+  color:#225466;
+  border:5px solid #225466;
+}
+.btn{
+  color: #17D4FE;
+  width:300px;
+  height:100px;
+  background-color:#225466;
+  border-radius:4px;
+  font-size:1.8rem;
+  transition: ease-out 0.3s;
+  font-family: 'Orbitron', sans-serif;
+  border:3px solid #17D4FE;
+  margin-top:10px;
+}
+.btn:hover{
+  background-color:#17D4FE;
+  color:#225466;
+  border:5px solid #225466;
+}
+.time{
+  background-color:black;
+  width:198px;
+  height:50px;
+  color: #17D4FE;
+  border:3px solid #17D4FE;
+  border-radius: 4px;
+  font-size:1rem;
+  margin-top:10px;
+  font-family: 'Orbitron', sans-serif;
+}
+.time:hover{
+  box-shadow: 0 0 100px #225466 inset;
+}
+h1{
+  color:#17D4FE;
+}
+
+.clock{
+  font-family: 'Orbitron', sans-serif;
+  top:50%;
+  left:50%;
+  color:#17D4FE;
+  letter-spacing: 7px;
+  font-size:60px;
+}
+.setAlarm{
+  width:500px;
+}

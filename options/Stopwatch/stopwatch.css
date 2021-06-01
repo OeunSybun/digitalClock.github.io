@@ -1,0 +1,50 @@
+body{
+  background-color:black;
+  text-align:center;
+}
+#title{
+  margin-top:60px;
+}
+.stopwatch{
+  background-color:#225466;
+  color: #17D4FE;
+  width:600px;
+  height:100px;
+  background-color:#225466;
+  font-family: 'Orbitron', sans-serif;
+  transition: ease-out 0.3s;
+  font-size:3rem;
+  margin-top:10px;
+  border:3px solid #17D4FE;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.stopwatch:hover{
+  background-color:#17D4FE;
+  color:#225466;
+  border:5px solid #225466;
+}
+.btn{
+  color: #17D4FE;
+  width:300px;
+  height:100px;
+  background-color:#225466;
+  border-radius:4px;
+  font-size:1.8rem;
+  transition: ease-out 0.3s;
+  font-family: 'Orbitron', sans-serif;
+  border:3px solid #17D4FE;
+  margin-top:10px;
+}
+.btn:hover{
+  background-color:#17D4FE;
+  color:#225466;
+  border:5px solid #225466;
+}
+#clock{
+    text-align:center;
+    color: #17D4FE;
+    font-size: 100px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 7px;
+}
