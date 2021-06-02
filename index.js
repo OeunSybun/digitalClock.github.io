@@ -11,7 +11,7 @@ function timeProcess(){
   if(s<10){
     s="0"+s;
   }
-  if(h>=12){
+  if(h>12){
     if(parseInt("0"+(h-12))>=10){
       $("#hour").html(h-12);
     }
